@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 100%;
+    height: 250px;
+    background-color:rgb(51, 103, 214);
+    display: flex;
+    padding-top: 60px;
+    border-bottom: 2px solid #000;
+}
+
+.profile-image {
+    margin-left: 10%;
+}
+
+.profile-image img {
+  height: 200%;
+  width: 90%;
+  display: inline-block;
+}
+
+.profile-description {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0px 10%;
+}
+
+.profile-description h2 {
+    font-size: 60px;
+}
+
+.profile-description p {
+    font-size: 20px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40%;
+    margin-top: 3%;
+    color: #101010;
+}
+
+.contact-1 h3 {
+    margin-bottom: 3%;
+    text-transform: uppercase;
+}
+
+.contact p {
+    margin: 10px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.profile-experience {
+    display: flex;
+    margin-left: 10%;
+    margin-top: 5%;
+    color:  #101010;
+}
+
+.profile {
+    width: 25%;
+}
+
+.experience {
+  margin-left: 15%;
+  width: 40%;
+}
+
+.profile h2, .experience h2 {
+  text-transform: uppercase;
+   margin-bottom: 15px;
+   border-top: 2px solid #000;
+}
+
+.expertise {
+    margin-top: 25px; 
+}
+
+
+.experience h3 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    line-height: 25px;
+}
+
+.experience p {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.workdone {
+    margin-bottom: 30px;
+}
+
+.education-history {
+    margin-bottom: 100px;
+}
+
+/* Media Queries */
+
+/* Mobile and Tablet Only */
+
+@media only screen and (min-width: 0px) and (max-width: 479px),
+(min-width: 480px) and (max-width: 767px) {
+   
+   .profile {
+       width: 100%;
+   }
+
+     .profile-image img {
+           height: 100%;
+           width: 120%;
+     }
+
+.profile-description {
+  align-self: center;
+}
+
+.profile-description h2 {
+    font-size: 30px;
+}
+
+.profile-description p {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.contact {
+   display: block;
+   align-items: center;
+   margin-left: 5%;
+}
+
+.contact-2 {
+    margin-top: 40px;
+}
+    
+.profile-experience {
+    margin-top: 50px;
+    display: block;
+    padding-right: 2%;
+    margin-right: 3%;
+}
+
+.experience {
+    margin-top: 50px;
+  margin-left: 1%;
+  width: 100%;
+}
+
+.experience h3 {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+}
